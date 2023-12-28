@@ -1,9 +1,10 @@
 import "./App.css";
+import CardsLanding from "./pages/CardsLanding";
 
 function App() {
   return (
     <>
-      <h2>Hey you!</h2>
+      <CardsLanding />
     </>
   );
 }
