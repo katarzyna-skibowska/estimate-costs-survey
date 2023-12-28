@@ -15,7 +15,8 @@
     "@mui/material": "^5.15.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.1"
+    "react-router-dom": "^6.21.1",
+    "survey-react-ui": "^1.9.123"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
