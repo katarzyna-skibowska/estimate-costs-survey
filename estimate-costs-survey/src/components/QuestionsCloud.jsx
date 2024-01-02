@@ -1,4 +1,6 @@
 export const QuestionsCloud = {
+  locale: "pl",
+
   title: "Rozwiązanie chmurowe telefonii IP",
   completedHtmlOnCondition: [
     {

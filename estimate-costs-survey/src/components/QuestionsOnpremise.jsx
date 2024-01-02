@@ -286,4 +286,5 @@ export const QuestionsOnpremise = {
   editText: {
     pl: "Edytuj swoje odpowiedzi",
   },
+  widthMode: "responsive",
 };
