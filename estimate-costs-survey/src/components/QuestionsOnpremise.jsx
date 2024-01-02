@@ -1,4 +1,5 @@
 export const QuestionsOnpremise = {
+  locale: "pl",
   title: "Rozwiązanie on-premise telefonii IP",
   completedHtmlOnCondition: [
     {
