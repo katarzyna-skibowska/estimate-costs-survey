@@ -1,5 +1,5 @@
-export const SurveyQuestionsOnpremise = {
-  title: "Rozwiązanie on-premise telefonii IP",
+export const QuestionsCloud = {
+  title: "Rozwiązanie chmurowe telefonii IP",
   completedHtmlOnCondition: [
     {
       expression: "{total} > 0",
@@ -286,4 +286,5 @@ export const SurveyQuestionsOnpremise = {
   editText: {
     pl: "Edytuj swoje odpowiedzi",
   },
+  widthMode: "responsive",
 };

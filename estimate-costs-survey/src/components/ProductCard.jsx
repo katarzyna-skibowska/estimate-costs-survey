@@ -32,7 +32,7 @@ const ProductCard = () => {
             <CardMedia component="img" src={onpremise} alt="IP onpremise" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Telefonia onpremise
+                Telefonia on premise
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Telefonia on premise dla Twojej firmy.

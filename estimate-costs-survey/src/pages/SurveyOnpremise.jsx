@@ -1,7 +1,7 @@
 const SurveyOnpremise = () => {
   return (
     <div>
-      <p>SurveyOnpremise</p>
+      <p>Survey On premise</p>
     </div>
   );
 };

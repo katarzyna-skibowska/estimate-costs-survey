@@ -1,5 +1,5 @@
-export const SurveyQuestionsCloud = {
-  title: "Rozwiązanie chmurowe telefonii IP",
+export const QuestionsOnpremise = {
+  title: "Rozwiązanie on-premise telefonii IP",
   completedHtmlOnCondition: [
     {
       expression: "{total} > 0",
