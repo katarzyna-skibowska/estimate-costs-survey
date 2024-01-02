@@ -106,43 +106,43 @@ export const QuestionsCloud = {
               name: "numberSoftphone",
               title: "Ile SOFTPHONE potrzebujesz?",
             },
-            {
-              type: "imagepicker",
-              name: "deskphoneModel",
-              title: "Wybierz modele telefonów biurkowych",
-              description: "Możliwość wyboru kilku modeli",
-              visibleIf: "{whichDevices.deskPhones} = 'yes'",
-              isRequired: true,
-              choices: [
-                {
-                  value: "lion",
-                  imageLink:
-                    "https://allvoicestore.com/environment/cache/images/500_500_productGfx_242/telefon_J139_deskphone_ip_allvoicestore_avaya.webp",
-                  text: "J139",
-                  description: "Please select all that apply.",
-                },
-                {
-                  value: "giraffe",
-                  imageLink:
-                    "https://allvoicestore.com/environment/cache/images/500_500_productGfx_281/J159-1.webp",
-                  text: "J159",
-                },
-                {
-                  value: "red-panda",
-                  imageLink:
-                    "https://www.avaya.com/en/images/device-catalog/1399762751231/j179-(1).png&IMG=true",
-                  text: "J179",
-                },
-                {
-                  value: "camel",
-                  imageLink:
-                    "https://allvoicestore.com/userdata/public/gfx/250/telefon_J129_deskphone_ip_avaya_allvoicestore_3.webp",
-                  text: "J129",
-                },
-              ],
-              showLabel: true,
-              multiSelect: true,
-            },
+            // {
+            //   type: "imagepicker",
+            //   name: "deskphoneModel",
+            //   title: "Wybierz modele telefonów biurkowych",
+            //   description: "Możliwość wyboru kilku modeli",
+            //   visibleIf: "{whichDevices.deskPhones} = 'yes'",
+            //   isRequired: true,
+            //   choices: [
+            //     {
+            //       value: "J139",
+            //       imageLink:
+            //         "https://allvoicestore.com/environment/cache/images/500_500_productGfx_242/telefon_J139_deskphone_ip_allvoicestore_avaya.webp",
+            //       text: "J139",
+            //       description: "Please select all that apply.",
+            //     },
+            //     {
+            //       value: "J159",
+            //       imageLink:
+            //         "https://allvoicestore.com/environment/cache/images/500_500_productGfx_281/J159-1.webp",
+            //       text: "J159",
+            //     },
+            //     {
+            //       value: "J179",
+            //       imageLink:
+            //         "https://www.avaya.com/en/images/device-catalog/1399762751231/j179-(1).png&IMG=true",
+            //       text: "J179",
+            //     },
+            //     {
+            //       value: "J129",
+            //       imageLink:
+            //         "https://allvoicestore.com/userdata/public/gfx/250/telefon_J129_deskphone_ip_avaya_allvoicestore_3.webp",
+            //       text: "J129",
+            //     },
+            //   ],
+            //   showLabel: true,
+            //   multiSelect: true,
+            // },
             {
               type: "text",
               inputType: "number",
